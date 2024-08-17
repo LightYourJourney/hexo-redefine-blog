@@ -13,7 +13,7 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://cine-philia.github.io
+url: https://lightyourjourney.github.io/hexo-redefine-blog/
 permalink: :layout/:title/ # permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,8 +102,8 @@ theme: redefine
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:cine-philia/cine-philia.github.io.git
-  ## repo: https://github.com/cine-philia/cine-philia.github.io.git
+  repo: git@github.com:LightYourJourney/hexo-redefine-blog.git
+  ## repo: https://github.com/LightYourJourney/hexo-redefine-blog.git
   branch: gh-pages
 
 # Add LaTeX Support
@@ -242,8 +242,8 @@ backup:
   type: git
   theme: coney,landscape,xxx
   repository:
-    github: git@github.com:cine-philia/cine-philia.github.io.git,backup
-    # gitcafe: git@github.com:cine-philia/cine-philia.github.io.git,branchName
+    github: git@github.com:LightYourJourney/hexo-redefine-blog.git,backup
+    # gitcafe: git@github.com:LightYourJourney/hexo-redefine-blog.git,branchName
 
 # hexo-bilibili-bangumi
 bangumi: # 追番设置

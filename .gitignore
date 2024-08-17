@@ -9,4 +9,3 @@ public/
 _multiconfig.yml
 .travis.yml
 package-lock.json
-yarn.lock

@@ -14,7 +14,7 @@ info:
   # Author name
   author: Cine Philia
   # Site URL
-  url: https://https://cine-philia.github.io
+  url: https://lightyourjourney.github.io/hexo-redefine-blog/
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # IMAGE CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
@@ -169,7 +169,7 @@ home_banner:
     # Social links
     links:
       # weixin: /images/wechat.jpg
-      github: https://github.com/cine-philia # your GitHub URL
+      github: https://github.com/LightYourJourney # your GitHub URL
       zhihu: https://www.zhihu.com/people/2-95-33-45 # your ZhiHu URL
       email: yanjinli502@yeah.net # your email
       twitter: https://x.com/philia20582 # your twitter URL (x-twitter did not work)
@@ -216,8 +216,8 @@ navbar:
     About:
       icon: fa-regular fa-user
       submenus:
-        🧑🏻‍💻 Git Repo: https://github.com/cine-philia/cine-philia.github.io
-        🌐 Blog: https://cine-philia.github.io/
+        🧑🏻‍💻 Git Repo: https://github.com/LightYourJourney/hexo-redefine-blog
+        🌐 Blog: https://lightyourjourney.github.io/hexo-redefine-blog/
         🙋🏻 Me: /about
     # Tags: #标签
     #   icon: fa-solid fa-tags #图标
@@ -372,10 +372,10 @@ comment:
       region: # Twikoo region. can be empty
     # Giscus comment system. See https://giscus.app/
     giscus:
-      repo: cine-philia/cine-philia.github.io # Github repository name e.g. EvanNotFound/hexo-theme-redefine
-      repo_id: R_kgDOMWZSDw # Github repository id
+      repo: LightYourJourney/hexo-redefine-blog # Github repository name e.g. EvanNotFound/hexo-theme-redefine
+      repo_id: R_kgDOMkux2A # Github repository id
       category: Announcements # Github discussion category
-      category_id: DIC_kwDOMWZSD84Cgyns # Github discussion category id
+      category_id: DIC_kwDOMkux2M4Chvko # Github discussion category id
       mapping: pathname # Which value to use as the unique identifier for the page. e.g. pathname, url, title, og:title. DO NOT USE og:title WITH PJAX ENABLED since pjax will not update og:title when the page changes
       strict: 0 # Whether to enable strict mode. e.g. 0, 1
       reactions_enabled: 1 # Whether to enable reactions. e.g. 0, 1
