@@ -1,0 +1,68 @@
+<!--SCRIPTS-->
+<%- js('assets/js/jquery.js') %>
+<%- js('assets/js/jquery.fancybox.js') %>
+<%- js('assets/js/thumbs.js') %>
+<%- js('assets/js/tranquilpeak.js') %>
+<!--SCRIPTS END-->
+
+<% if (post.comments) { %>
+    <% if (theme.disqus_shortname) { %>
+        <script>
+          var disqus_config = function() {
+            this.page.url = '<%= post.permalink %>';
+              <% if (post.disqusIdentifier) { %>
+            this.page.identifier = '<%= post.disqusIdentifier %>';
+              <% } else { %>
+            this.page.identifier = '<%= post.path %>';
+              <% } %>
+          };
+          (function() {
+            var d = document, s = d.createElement('script');
+            var disqus_shortname = '<%= theme.disqus_shortname %>';
+            s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+    <% } else if (theme.gitment.enable) { %>
+        <%- js('assets/js/gitment.js') %>
+        <script type="text/javascript">
+          (function() {
+            new Gitment({
+              id: '<%= post[theme.gitment.post_identifier] %>',
+              owner: '<%- theme.gitment.github_id %>',
+              repo: '<%- theme.gitment.repo %>',
+              oauth: {
+                client_id: '<%- theme.gitment.client_id %>',
+                client_secret: '<%- theme.gitment.client_secret %>'
+              }
+            }).render('gitment')
+          })()
+        </script>
+    <% } else if (theme.gitalk.enable) { %>
+        <%- js('assets/js/gitalk.js') %>
+        <script type="text/javascript">
+          (function() {
+            new Gitalk({
+              clientID: '<%= theme.gitalk.client_id %>',
+              clientSecret: '<%= theme.gitalk.client_secret %>',
+              repo: '<%= theme.gitalk.repo %>',
+              owner: '<%= theme.gitalk.owner %>',
+              admin: ['<%= theme.gitalk.owner %>'],
+              id: '<%= post[theme.gitalk.post_identifier] %>',
+              ...<%- JSON.stringify(theme.gitalk.options) %>
+            }).render('gitalk')
+          })()
+        </script>
+    <% } %>
+<% } %>
+
+<% if (config.algolia && config.algolia.appId && config.algolia.apiKey && config.algolia.indexName) { %>
+    <%- js('assets/js/moment-with-locales.js') %>
+    <%- js('assets/js/algoliasearch.js') %>
+    <script>
+      var algoliaClient = algoliasearch('<%= config.algolia.appId %>', '<%= config.algolia.apiKey %>');
+      var algoliaIndex = algoliaClient.initIndex('<%= config.algolia.indexName %>');
+    </script>
+<% } %>

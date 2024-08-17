@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy_git/
+
+_multiconfig.yml
+.travis.yml
+package-lock.json
+yarn.lock

@@ -1,0 +1,22 @@
+# - links_category: 分类名
+#   has_thumbnail: 是否有预览图(true/false)
+#   list:
+#     - name: 友链名字 1
+#       link: 友链 URL 1
+#       description: 友链站点描述 1
+#       avatar: 头像 1
+#       thumbnail: 预览图 URL 1 (has_thumbnail 为 true 时才需要）
+#     - name: 友链名字 2
+#       link: 友链 URL 2
+#       description: 友链站点描述 2
+#       avatar: 头像 2
+#       thumbnail: 预览图 URL 2 (has_thumbnail 为 true 时才需要）
+
+- links_category: From SJTU
+  has_thumbnail: false # 是否有预览图(true/false)
+  list:
+    - name: zyzx # 名字
+      link: http://8.130.104.118:8090/ # 友链 URL
+      description: A Medical Student's Study Blog! # 描述
+      avatar: http://8.130.104.118:8090/upload/51cc7767db966b9b4e1249613b7e4762_5715437228961952717.jpg # 头像
+      # thumbnail: http://8.130.104.118:8090/upload/51cc7767db966b9b4e1249613b7e4762_5715437228961952717.jpg # 预览图(has_thumbnail 为 true 时才需要）

@@ -1,0 +1,359 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Cinephilia
+subtitle: "迷影至上"
+description: "Where Cine Philia Writes Her Blog."
+keywords: Cinephilia, 迷影至上, Blog, 博客
+author: Cine Philia
+language: en # zh-CN
+timezone: "Asia/Shanghai"
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://cine-philia.github.io
+permalink: :layout/:title/ # permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ""
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: true
+  tab_replace: ""
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ""
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ""
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: "mtime"
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: redefine
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repo: git@github.com:cine-philia/cine-philia.github.io.git
+  ## repo: https://github.com/cine-philia/cine-philia.github.io.git
+  branch: gh-pages
+
+# Add LaTeX Support
+mathjax:
+  tags: all # or 'ams' or 'all'
+  single_dollars: true # enable single dollar signs as in-line math delimiters
+  cjk_width: 0.9 # relative CJK char width
+  normal_width: 0.6 # relative normal (monospace) width
+  append_css: true # add CSS to every page
+  every_page: true # if true, every page will be rendered by mathjax regardless the `mathjax` setting in Front-matter of each article
+
+# hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: " "
+  order_by: -date
+  icon: icon.png
+
+# Add Emoji Support for Markdown Rendering
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:
+
+# Live2D
+## https://github.com/EYHN/hexo-helper-live2d
+live2d:
+  enable: true
+  # enable: false
+  scriptFrom: local # 默认
+  pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
+  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
+  pluginModelPath: assets/ # 模型文件相对与插件根目录路径
+  # scriptFrom: jsdelivr # jsdelivr CDN
+  # scriptFrom: unpkg # unpkg CDN
+  # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url
+  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
+  debug: false # 调试, 是否在控制台输出日志
+  model:
+    use: live2d-widget-model-tororo # npm-module package name
+    # use: wanko # 博客根目录/live2d_models/ 下的目录名
+    # use: ./wives/wanko # 相对于博客根目录的路径
+    # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
+  display:
+    superSample: 2
+    position: left
+    width: 150
+    height: 300
+    hOffset: 125
+    vOffset: -6
+  mobile:
+    show: true # 手机中是否展示
+    scale: 0.5 # 手机缩放比例
+  react:
+    opacityDefault: 0.66 # 模型透明度
+    opacityOnHover: 0.2 # 鼠标悬浮时模型透明度
+  dialog:
+    enable: true # 是否开启对话框
+    hitokoto: true # 是否使用一言
+
+plugins:
+  - hexo-tag-spotify
+# =====================================================
+##size
+#large (default)
+#compact
+#width>x<height>
+
+##theme
+#dark (default)
+#light
+
+##view
+#list (default)
+#cover
+
+spotify:
+  size: "large"
+  theme: "dark"
+  view: "list"
+# =====================================================
+
+douban:
+  id: 275418768
+  builtin: false
+  dynamic: false
+  item_per_page: 10
+  meta_max_line: 4
+  customize_layout: page
+  swup: false
+  book:
+    path: books/index.html
+    title: "This is my book title"
+    quote: "This is my book quote"
+    actions:
+      - do
+      - wish
+      - collect
+    option:
+  movie:
+    path: movies/index.html
+    title: "This is my movie title"
+    quote: "This is my movie quote"
+    actions:
+      - do
+      - wish
+      - collect
+    option:
+  game:
+    path: games/index.html
+    title: "This is my game title"
+    quote: "This is my game quote"
+    actions:
+      - do
+      - wish
+      - collect
+    option:
+  song:
+    path: songs/index.html
+    title: "This is my song title"
+    quote: "This is my song quote"
+    actions:
+      - do
+      - wish
+      - collect
+    option:
+
+backup:
+  type: git
+  theme: coney,landscape,xxx
+  repository:
+    github: git@github.com:cine-philia/cine-philia.github.io.git,backup
+    # gitcafe: git@github.com:cine-philia/cine-philia.github.io.git,branchName
+
+# hexo-bilibili-bangumi
+bangumi: # 追番设置
+  enable: true
+  source: bili
+  bgmInfoSource: "bgmv0"
+  path:
+  vmid: 3494367876614193
+  title: "追番列表"
+  quote: "生命不息，追番不止！"
+  show: 1
+  lazyload: true
+  srcValue: "__image__"
+  lazyloadAttrName: "data-src=__image__"
+  loading:
+  showMyComment: false
+  pagination: false
+  metaColor:
+  color:
+  webp:
+  progress:
+  extraOrder:
+  order: latest
+  proxy:
+    host: "代理host"
+    port: "代理端口"
+  extra_options:
+    key: value
+  coverMirror:
+cinema: # 追剧设置
+  enable: true
+  path:
+  vmid: 3494367876614193
+  title: "追剧列表"
+  quote: "生命不息，追剧不止！"
+  show: 1
+  lazyload: true
+  srcValue: "__image__"
+  lazyloadAttrName: "data-src=__image__"
+  loading:
+  metaColor:
+  color:
+  webp:
+  progress:
+  extraOrder:
+  order:
+  extra_options:
+    key: value
+  coverMirror:
+game: # 游戏设置，仅支持source: bgmv0
+  enable: true
+  path:
+  source: bgmv0
+  vmid: 3494367876614193
+  title: "游戏列表"
+  quote: "生命不息，游戏不止！"
+  show: 1
+  lazyload: true
+  srcValue: "__image__"
+  lazyloadAttrName: "data-src=__image__"
+  loading:
+  metaColor:
+  color:
+  webp:
+  progress:
+  extraOrder:
+  order:
+  extra_options:
+    key: value
+  coverMirror:
+
+# hexo-hide-posts
+hide_posts:
+  # 是否启用 hexo-hide-posts
+  enable: true
+
+  # 隐藏文章的 front-matter 标识，也可以改成其他你喜欢的名字
+  filter: hidden
+
+  # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
+  noindex: false
+
+  # 设置白名单，白名单中的 generator 可以访问隐藏文章
+  # 常见的 generators 有：index, tag, category, archive, sitemap, feed, etc.
+  # allowlist_generators: []
+
+  # 设置黑名单，黑名单中的 generator 不可以访问隐藏文章
+  # 如果同时设置了黑名单和白名单，白名单的优先级更高
+  # blocklist_generators: ['*']
+
+steam:
+  enable: true
+  steamId: "76561199582184371" #steam 64位Id
+  apiKey: "6DD18DCBD4B3700D5F00A39106DE2186" #steam api key
+  steamInfos: # 多账号配置
+    - id: "*****" #steam 64位Id
+      path: # 为每个帐号游戏库单独配置页面路径，默认`steamgames/{steamId}/index.html`
+    - id: "*****"
+  freeGames: true
+  path:
+  title: Steam 游戏库
+  quote: "+1+1+1+1+1"
+  tab: recent
+  length: 1000
+  imgUrl: "*****"
+  proxy:
+    host:
+    port:
+  extra_options:
+    key: value
+
+mtime:
+  css: https://cdn.mayuko.cn/css/hexo-tag-mtime.css
