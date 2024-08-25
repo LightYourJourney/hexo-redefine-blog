@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Cinephilia</title>
+  <icon>https://lightyourjourney.github.io/hexo-redefine-blog/icon.png</icon>
+  <subtitle>迷影至上</subtitle>
+  <link href="https://lightyourjourney.github.io/hexo-redefine-blog/atom.xml" rel="self"/>
+  
+  <link href="https://lightyourjourney.github.io/hexo-redefine-blog/"/>
+  <updated>2024-08-17T15:30:54.118Z</updated>
+  <id>https://lightyourjourney.github.io/hexo-redefine-blog/</id>
+  
+  <author>
+    <name>Cine Philia</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://lightyourjourney.github.io/hexo-redefine-blog/post/demo/"/>
+    <id>https://lightyourjourney.github.io/hexo-redefine-blog/post/demo/</id>
+    <published>2024-08-17T14:37:50.824Z</published>
+    <updated>2024-08-17T15:30:54.118Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css&quot;&gt;&lt;link</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
