@@ -4981,10 +4981,10 @@ hexo-all-minifier@^0.5.7:
     minimatch "^3.0.4"
     uglify-js "^3.13.3"
 
-hexo-bilibili-bangumi@^1.10.1:
-  version "1.10.1"
-  resolved "https://registry.npmmirror.com/hexo-bilibili-bangumi/-/hexo-bilibili-bangumi-1.10.1.tgz#a55cc46ec97e402c41fdcfad9c43721472bdf9b6"
-  integrity sha512-GeKnVsJussCl4q11vdYsH+Rn852kUCYdaB/3FXAzV3EHjLHGac/LuLtBmztX/7l+SK4VeTqaRWtJJLClTcNaSg==
+hexo-bilibili-bangumi@^1.10.2:
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/hexo-bilibili-bangumi/-/hexo-bilibili-bangumi-1.10.2.tgz#702fafad14d63a483aa7c5becae3b372a906be66"
+  integrity sha512-l/XG090jBe/AYAz83yqLwxQt8FnFKKZhsF6DbRkBbpVlbBEWuq6joa2ESpFFanDwX68VmGUI7fVAKd7yM4Ppfg==
   dependencies:
     "@babel/runtime" "^7.18.0"
     axios "^1.0.0"
