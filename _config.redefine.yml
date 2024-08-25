@@ -14,7 +14,7 @@ info:
   # Author name
   author: Cine Philia
   # Site URL
-  url: https://lightyourjourney.github.io/hexo-redefine-blog/
+  url: https://blog-hexo.yanjinli.fun # https://lightyourjourney.github.io/hexo-redefine-blog/
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # IMAGE CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
@@ -217,7 +217,7 @@ navbar:
       icon: fa-regular fa-user
       submenus:
         🧑🏻‍💻 Git Repo: https://github.com/LightYourJourney/hexo-redefine-blog
-        🌐 Blog: https://lightyourjourney.github.io/hexo-redefine-blog/
+        🌐 Blog: https://blog-hexo.yanjinli.fun # https://lightyourjourney.github.io/hexo-redefine-blog/
         🙋🏻 Me: /about
     # Tags: #标签
     #   icon: fa-solid fa-tags #图标
