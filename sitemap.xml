@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://lightyourjourney.github.io/hexo-redefine-blog/post/demo/</loc>
+    <loc>https://blog-hexo.yanjinli.fun/post/demo/</loc>
     
-    <lastmod>2024-08-17</lastmod>
+    <lastmod>2024-08-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://lightyourjourney.github.io/hexo-redefine-blog/about/</loc>
+    <loc>https://blog-hexo.yanjinli.fun/about/</loc>
     
     <lastmod>2024-07-17</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://lightyourjourney.github.io/hexo-redefine-blog/essays/</loc>
+    <loc>https://blog-hexo.yanjinli.fun/essays/</loc>
     
     <lastmod>2024-07-17</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://lightyourjourney.github.io/hexo-redefine-blog/categories/</loc>
+    <loc>https://blog-hexo.yanjinli.fun/categories/</loc>
     
     <lastmod>2024-07-17</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://lightyourjourney.github.io/hexo-redefine-blog/tags/</loc>
+    <loc>https://blog-hexo.yanjinli.fun/tags/</loc>
     
     <lastmod>2024-07-17</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://lightyourjourney.github.io/hexo-redefine-blog/links/</loc>
+    <loc>https://blog-hexo.yanjinli.fun/links/</loc>
     
     <lastmod>2024-07-17</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://lightyourjourney.github.io/hexo-redefine-blog/masonry/</loc>
+    <loc>https://blog-hexo.yanjinli.fun/masonry/</loc>
     
     <lastmod>2024-07-16</lastmod>
     
@@ -66,7 +66,7 @@
   
 
   <url>
-    <loc>https://lightyourjourney.github.io/hexo-redefine-blog</loc>
+    <loc>https://blog-hexo.yanjinli.fun/</loc>
     <lastmod>2024-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
