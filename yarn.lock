@@ -7975,10 +7975,10 @@ node-releases@^2.0.18:
   resolved "https://registry.npmmirror.com/node-releases/-/node-releases-2.0.18.tgz#f010e8d35e2fe8d6b2944f03f70213ecedc4ca3f"
   integrity sha512-d9VeXT4SJ7ZeOqGX6R5EM022wpL+eWPooLI+5UpWn2jCT1aosUQEhQP214x33Wkwx3JQMvIm+tIoVOdodFS40g==
 
-nodejieba@^3.3.1:
-  version "3.4.1"
-  resolved "https://registry.npmmirror.com/nodejieba/-/nodejieba-3.4.1.tgz#108c2bec8119de1eb586bb3c681dc2bf2d2e84f2"
-  integrity sha512-WpVFgCyrdkh2pk8Y17dIIEjJjJ22VOqTeAVaU28o+A8qYxYBVotBqyfUYTH2/vPVqRlpd3kCxOvHq7N4hbJoYQ==
+nodejieba@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/nodejieba/-/nodejieba-3.4.2.tgz#f46473018acc40bbc27566cf8a5a44cefa4a048e"
+  integrity sha512-0OvQX4czTFy4U/D+G2mteUxdjpiwbd/GjNWaHdJqMqpoIgjIdS2gPiXyfq8eUv9YT2rtlpddY/qezcGaryMeug==
   dependencies:
     "@mapbox/node-pre-gyp" "^1.0.9"
     node-addon-api "^3.0.2"

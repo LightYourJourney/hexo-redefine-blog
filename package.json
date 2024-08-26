@@ -94,7 +94,7 @@
     "lxgw-wenkai-screen-webfont": "^1.7.0",
     "lxgw-wenkai-tc-webfont": "^1.2.0",
     "lxgw-wenkai-webfont": "^1.7.0",
-    "nodejieba": "^3.3.1",
+    "nodejieba": "^3.4.2",
     "punycode": "^2.3.1"
   },
   "devDependencies": {
