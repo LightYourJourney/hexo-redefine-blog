@@ -5711,12 +5711,10 @@ hexo-theme-nexmoe@^4.2.2:
     inferno-create-element "^7.3.3"
     semver ">=5.0.0"
 
-hexo-theme-redefine@^2.7.1:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/hexo-theme-redefine/-/hexo-theme-redefine-2.7.1.tgz#a5e6d686b2e8ef34896e178857f14b493a2ef9c6"
-  integrity sha512-XTa3GA5hNgylBOV1190FNijBEptwMo7C+xv7RaRMBtncGff1LArOl6mdwuIDxaO82kAL+ooA3hIbvoI3snZlFg==
-  dependencies:
-    postcss "^8.4.28"
+hexo-theme-redefine@^2.7.2:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/hexo-theme-redefine/-/hexo-theme-redefine-2.7.2.tgz#0e5c938e41e407fd0738e90d8a9f9c97c360b327"
+  integrity sha512-nOTwGWRH8d6lAzILYwqW2BzaRCtBOXP8G9l9o6XIcyPO4fvsgCKQn5/kwSOMNDa5SPCB7txjgeQsO61yeBb0hw==
 
 hexo-theme-stellar@^1.29.1:
   version "1.29.1"
@@ -7847,11 +7845,6 @@ nan@^2.12.1:
   resolved "https://registry.npmmirror.com/nan/-/nan-2.20.0.tgz#08c5ea813dd54ed16e5bd6505bf42af4f7838ca3"
   integrity sha512-bk3gXBZDGILuuo/6sKtr0DQmSThYHLtNCdSdXk9YkxD/jK6X2vmCyyXBBxyqZ4XcnzTyYEAThfX3DCEnLf6igw==
 
-nanoid@^3.3.7:
-  version "3.3.7"
-  resolved "https://registry.npmmirror.com/nanoid/-/nanoid-3.3.7.tgz#d0c301a691bc8d54efa0a2226ccf3fe2fd656bd8"
-  integrity sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==
-
 nanomatch@^1.2.9:
   version "1.2.13"
   resolved "https://registry.npmmirror.com/nanomatch/-/nanomatch-1.2.13.tgz#b87a8aa4fc0de8fe6be88895b38983ff265bd119"
@@ -8880,15 +8873,6 @@ posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.npmmirror.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha512-xTgYBc3fuo7Yt7JbiuFxSYGToMoz8fLoE6TC9Wx1P/u+LfeThMOAqmuyECnlBaaJb+u1m9hHiXUEtwW4OzfUJg==
-
-postcss@^8.4.28:
-  version "8.4.41"
-  resolved "https://registry.npmmirror.com/postcss/-/postcss-8.4.41.tgz#d6104d3ba272d882fe18fc07d15dc2da62fa2681"
-  integrity sha512-TesUflQ0WKZqAvg52PWL6kHgLKP6xB6heTOdoYM0Wt2UHyxNa4K25EZZMgKns3BH1RLVbZCREPpLY0rhnNoHVQ==
-  dependencies:
-    nanoid "^3.3.7"
-    picocolors "^1.0.1"
-    source-map-js "^1.2.0"
 
 prepend-http@^1.0.1:
   version "1.0.4"
@@ -9967,11 +9951,6 @@ sort-keys@^2.0.0:
   integrity sha512-/dPCrG1s3ePpWm6yBbxZq5Be1dXGLyLn9Z791chDC3NFrpkVbWGzkBwPN1knaciexFXgRJ7hzdnwZ4stHSDmjg==
   dependencies:
     is-plain-obj "^1.0.0"
-
-source-map-js@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.0.tgz#16b809c162517b5b8c3e7dcd315a2a5c2612b2af"
-  integrity sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==
 
 source-map-resolve@^0.5.0, source-map-resolve@^0.5.2:
   version "0.5.3"
