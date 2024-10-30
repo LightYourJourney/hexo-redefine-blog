@@ -5711,10 +5711,10 @@ hexo-theme-nexmoe@^4.2.2:
     inferno-create-element "^7.3.3"
     semver ">=5.0.0"
 
-hexo-theme-redefine@^2.7.2:
-  version "2.7.2"
-  resolved "https://registry.yarnpkg.com/hexo-theme-redefine/-/hexo-theme-redefine-2.7.2.tgz#0e5c938e41e407fd0738e90d8a9f9c97c360b327"
-  integrity sha512-nOTwGWRH8d6lAzILYwqW2BzaRCtBOXP8G9l9o6XIcyPO4fvsgCKQn5/kwSOMNDa5SPCB7txjgeQsO61yeBb0hw==
+hexo-theme-redefine@^2.7.3:
+  version "2.7.3"
+  resolved "https://registry.yarnpkg.com/hexo-theme-redefine/-/hexo-theme-redefine-2.7.3.tgz#b3011ee2938455a9f5ad30a5a815d7e73229cf1f"
+  integrity sha512-TMbDA0eQqo5nQVujW4TlJxi+fYtLzqZFOXIf90Hj5r8w/JUIQXNXIqm5pbOGubLDJWIOemHaZHYgRXCVngfvoA==
 
 hexo-theme-stellar@^1.29.1:
   version "1.29.1"
