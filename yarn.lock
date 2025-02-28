@@ -5553,10 +5553,10 @@ hexo-spoiler@^1.7.4:
   resolved "https://registry.npmmirror.com/hexo-spoiler/-/hexo-spoiler-1.7.4.tgz#0be977a4ebf033ad0adc7d822aaf8953a7ce0ba3"
   integrity sha512-1Z3Zh8MSvUxLv+cGxBhJdck8qKSv2pCZ0XktvW8u1ehERVgsJuYewJrdUSlZ/J4Qypo7th0Hkb/1kFh+u6kaLg==
 
-hexo-steam-games@^1.3.3:
-  version "1.3.3"
-  resolved "https://registry.npmmirror.com/hexo-steam-games/-/hexo-steam-games-1.3.3.tgz#18bf5cbbcf333a31803571c75020c129f31d04d8"
-  integrity sha512-00cw4kZmsLtFsTVpwfXxoPgjnjCypMMCGRJ3QbfCUZBOMMIKikVjSiIL7LukuEegPhWGcnXDScfN85/mzT5fJw==
+hexo-steam-games@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-steam-games/-/hexo-steam-games-2.0.0.tgz#c31a518d97a9ab5d71232914397b36f8419b6548"
+  integrity sha512-2EH9c68O1gZm3+kUIM9EvP3Znk0YYwppiKB5+qdmwUDe/xPSNEBPgvz/HzVMRim6lgWMUit3h1RTSCko4yLUpw==
   dependencies:
     axios-https-proxy-fix "^0.17.1"
     cheerio "^1.0.0-rc.3"
