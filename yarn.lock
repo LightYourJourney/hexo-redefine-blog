@@ -5313,10 +5313,10 @@ hexo-generator-json-content@^4.2.3:
     keyword-extractor latest
     moment latest
 
-hexo-generator-searchdb@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.npmmirror.com/hexo-generator-searchdb/-/hexo-generator-searchdb-1.4.1.tgz#e33c9bd22130a6705673e889b6497fcc3fe80fa5"
-  integrity sha512-7m8IBpZbI6iKb2jRYxs4pghD6Ln8ylQSRGl6MIC4G9wws21vYSXSD8rvC3MoCO+pWBHs6E/mTA/rjG+p2AZfVg==
+hexo-generator-searchdb@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-searchdb/-/hexo-generator-searchdb-1.5.0.tgz#ba7b48670e997378b3151684fffa2913b662a031"
+  integrity sha512-d0b5SueDxJimTFaHpPg430FQFx7DtMkmEIHo0UTOjXWRy+eDqNSp1CuS04P7fWzMnH2h+aQc6O9D2yY+3sdAUg==
   dependencies:
     nunjucks "^3.2.2"
 
